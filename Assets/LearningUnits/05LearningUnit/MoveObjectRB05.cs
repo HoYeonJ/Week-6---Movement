@@ -6,6 +6,7 @@ public class MoveObjectRB05 : MonoBehaviour
 {
     Rigidbody rigidbody;
     Vector3 moveDirection;
+    // Had to make the red cube not kinematic
     // Start is called before the first frame update
     void Start()
     {

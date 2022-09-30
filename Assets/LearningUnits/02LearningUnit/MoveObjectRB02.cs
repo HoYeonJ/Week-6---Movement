@@ -9,6 +9,8 @@ public class MoveObjectRB02 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        rigidbody = GetComponent<Rigidbody>();
+        //instantiated the object so there was something to actually move
     }
 
     // Update is called once per frame

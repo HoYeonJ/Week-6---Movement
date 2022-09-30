@@ -9,6 +9,7 @@ public class MoveObjectRB03 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //i just added the 
         moveDirection = new Vector3(-5, 0, 0); // Don't change this!
         rigidbody = GetComponent<Rigidbody>();
     }
